@@ -403,8 +403,26 @@ body {
     font-size: 1.2em;
     font-weight: bold;
     text-align: right;
-    width: 300px;
+    width: 280px;
     margin-left: auto;
+}
+
+.legend {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.color-box {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #000;
 }
 
 
